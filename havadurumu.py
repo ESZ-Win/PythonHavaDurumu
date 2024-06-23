@@ -5,7 +5,7 @@ from PIL import ImageTk, Image
 import requests
 
 # Hava Durumu Bilgilerini Almak İçin Gerekli değişkenler
-key = ""
+key = ""#Openweathermap tarafından verilen api key
 url = "https://api.openweathermap.org/data/2.5/weather"
 iconu = "https://openweathermap.org/img/wn/{}@2x.png"
 
